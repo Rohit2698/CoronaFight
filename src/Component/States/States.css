@@ -1,0 +1,18 @@
+.image{
+    position: relative;
+    top:50px;
+    left:50%;
+    width:128px;
+    height:74px;
+}
+
+.but{
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 900px){
+    .but{
+        margin-left: 20%;
+    }
+}

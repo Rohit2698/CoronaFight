@@ -1,0 +1,25 @@
+.search{
+    position: absolute;
+    left:30%;
+    width:35%;
+    text-align: center;
+    height: 40px;
+    box-shadow: 1px 1px 10px black;
+    border: 0;
+}
+.search::placeholder{
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px){
+    .search_main{
+        padding-top: 100px;
+        width:100%;
+    }
+    .search{
+        position: relative;
+        width:50%;
+        left: 25%;
+    }
+    
+}
